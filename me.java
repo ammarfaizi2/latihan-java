@@ -9,6 +9,7 @@ public class me{
 		String out = ((nama).trim()+"q\n"+Kelas+'5').toLowerCase();
 		System.out.print(out);*/
 		String[] nama = {"Ammar", "Kevin", "Akbar"};
+		//nama[0] = "QWEQWE";
 		System.out.print(nama[0]);
 	}
 	public String a(){
