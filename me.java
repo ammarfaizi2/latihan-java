@@ -1,9 +1,13 @@
 import p1.*;
 
 public class me{
+	public String hl = "Hello world";
 	public static void main(String[] args){
-		a1 ax = new a1();
-		System.out.print(ax.steks()+"\n"+ax.alamat+"\n"+ax.nama+"\n"+(new me()).a());
+		String nama = new String("Ammar Faizi");
+		char kelas[] = {'X','M','I','P','A'};
+		String Kelas = new String(kelas);
+		String out = nama+"\n"+Kelas+'5';
+		System.out.print(kelas);
 	}
 	public String a(){
 		return "aaaaaaa";
