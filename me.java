@@ -6,8 +6,8 @@ public class me{
 		String nama = new String("Ammar Faizi");
 		char kelas[] = {'X','M','I','P','A'};
 		String Kelas = new String(kelas);
-		String out = nama+"\n"+Kelas+'5';
-		System.out.print(kelas);
+		String out = (nama+"\n"+Kelas+'5').toLowerCase();
+		System.out.print(out);
 	}
 	public String a(){
 		return "aaaaaaa";
